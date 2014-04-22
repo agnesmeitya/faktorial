@@ -1,0 +1,15 @@
+import javax.swing.*;
+import java.util.Scanner;
+public class Faktorial {
+public static void main (String [] args) {
+        Scanner scan=new Scanner (System.in);
+        System.out.print("input :");
+	 int x=0, y=1,deretfaktorial=scan.nextInt();
+	 for(int i=1; i<=deretfaktorial; i++) {
+		System.out.println("faktorial :" +x );
+		x=x+y;
+		y=x-y;
+	
+		}
+	}
+}
